@@ -1,0 +1,20 @@
+c2     // froot         ; to make output files
+2e-5   // dt            ; Timestep
+0.10   // tmax          ; total length of integration, if 0 then integrate forever, add tdamp to this for max
+5      // ndt_print     ; printouts every dt
+2      // lattice_type  ; 0=bennu 1=randfootball 2=cone
+0.092  // b_distance    ; min separation between particles
+2.5    // mush_fac      ; ratio of smallest spring distance to minimum interparticle dist
+0.7    // omegaz        ; initial spin
+0.0    // obliq_deg     ; obliquity in degrees
+1000.0  // gamma_fac     ; initial factor for initial damping value for springs 
+1.0e-2 // gamma_all     ; final damping coeff      1/time
+1e-2   // t_damp        ; gamma to final values for all springs at this time
+1203.0 // ks            ; spring constant
+0.11   // surfdist      ; for identifying surface particles
+15.0    // lat_psh_deg   ; latitude of pulse in degrees
+0.0    // long_psh_deg  ; longitude of pulse in degrees
+15.0   // dangle_psh_deg; angular distance of pulse in degrees (from center)
+7.0    // famp_psh      ; amplitude total of pulse force
+3.0e-3  // dt_psh       ; length of pulse
+0.8 1.0 // ratio1, ratio2 ; if randfootball used b/a,c/a, if cone ratio1 = h/r
